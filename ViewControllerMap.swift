@@ -88,29 +88,3 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                }
         }
     }
-    
-
-
-//
-//    @IBAction func sgChangeLocation(_ sender: UISegmentedControl) {
-//        if sender.selectedSegmentIndex == 0 {
-//            self.lblLocationInfo1.text = ""
-//            self.lblLocationInfo2.text = ""
-//            locationManager.startUpdatingLocation()
-//        } else if sender.selectedSegmentIndex == 1 {
-//            setAnnotation(latitudeValue: 37.751853, longitudeValue: 128.87605740000004, delta: 1, title: "한국폴리텍대학 강릉캠퍼스", subtitle: "강원도 강릉시 남산초교길 121")
-//            self.lblLocationInfo1.text = "보고 계신 위치"
-//            self.lblLocationInfo2.text = "한국폴리텍대학 강릉캠퍼스"
-//        } else if sender.selectedSegmentIndex == 2 {
-//            setAnnotation(latitudeValue: 37.556876, longitudeValue: 126.914066, delta: 0.1, title: "이지스퍼블리싱", subtitle: "서울시 마포구 잔다리로 109 이지스 빌딩")
-//            self.lblLocationInfo1.text = "보고 계신 위치"
-//            self.lblLocationInfo2.text = "이지스퍼블리싱 출판사 "
-//        } else if sender.selectedSegmentIndex == 3 {
-//            setAnnotation(latitudeValue: 37.6293, longitudeValue: 127.0815, delta: 0.05, title: "서울과학기술대학교", subtitle: "미래관")
-//            self.lblLocationInfo1.text = "보고 계신 위치"
-//            self.lblLocationInfo2.text = "미래관"
-//        }
-//    }
-//
-//}
-//
